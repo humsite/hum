@@ -1,0 +1,455 @@
+body {
+  font-family: Roboto, 'Helvetica Neue', sans-serif !important;
+
+}
+
+.firstnav {
+  background-image: url("../img/Head-Bg.jpg");
+}
+
+.firstnav marquee {
+  padding-top: 10px;
+  font-weight: 700;
+
+}
+
+/* Second Nav */
+.second-nav {
+  background-image: url("../img/nav-bg-img.jpg");
+  opacity: 0.7;
+  background-position: right bottom;
+}
+
+.second-nav .logo {
+  width: 60px;
+  height: auto;
+}
+
+
+.second-nav ul li a {
+  font-weight: 900;
+  font-size: 16px;
+  color: rgb(228 185 44);
+  margin-left: 30px;
+}
+
+.second-nav ul li a:hover {
+  color: rgb(136, 104, 1);
+  transition: 1s all ease;
+}
+
+.second-nav ul li .active {
+  color: rgb(136, 104, 1);
+  font-weight: 900;
+}
+
+.second-nav h5 {
+  font-weight: 700;
+  color: white;
+  margin-top: 10px;
+  font-size: 27px;
+}
+
+.second-nav .donate-btn {
+  background-color: #F4C430;
+  color: white;
+  font-size: 14px;
+  border: 2px solid #F4C430;
+  padding: 8px 40px !important;
+  border-radius: 20px;
+}
+
+.second-nav .donate-btn:hover {
+  background-color: transparent;
+  color: #F4C430;
+}
+
+
+/* Banner */
+
+.banner .carousel-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width:400px) {
+  .banner .carousel-item img {
+    height: 250px;
+  }
+
+}
+
+.banner h5 {
+  font-family: courgette;
+  font-style: italic;
+  font-size: 27px;
+  margin-right: -10px;
+}
+
+.banner .btn {
+  background-color: white;
+  color: black;
+  padding: 8px 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-family: poppins !important;
+  font-weight: 700;
+}
+
+.banner .carousel-caption {
+  text-align: end;
+}
+
+
+/* F-card*/
+.f-card {
+  margin-top: 60px;
+}
+
+.f-card h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.f-card .row {
+  margin-top: 20px;
+}
+
+.f-card .row .card {
+  border: 6px solid rgb(255, 255, 255);
+}
+
+.f-card .row img {
+  width: 100%;
+  height: 300px;
+}
+
+.f-card .row img:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width:768px) {
+  .f-card .row .card {
+    margin-bottom: 10px;
+  }
+}
+
+/* Card-2*/
+.card-2 {
+  margin-top: 50px;
+}
+
+.card-2 h1 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.card-2 p {
+  font-weight: 700;
+  color: gray;
+  font-size: 14px;
+}
+
+/* footer */
+
+.footer {
+  margin-top: 60px;
+  padding: 0% !important;
+  justify-content: center;
+}
+
+.footer footer {
+  background-color: rgb(90, 88, 86);
+}
+
+.footer .address-content a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer h5 {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: rgb(182, 241, 62);
+}
+
+.footer .address-content p {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+.footer ul li a {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footer ul li a:hover {
+  color: #F4C430;
+}
+
+.footer .time {
+  margin-top: 40px;
+  margin-left: -12px;
+}
+
+.footer .copyright {
+  background-color: gray;
+}
+
+.footer .copyright {
+  color: white;
+  font-size: 14px;
+}
+
+.footer .copyright a {
+  color: #F4C430;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+
+/* About Us */
+.about {
+  margin-top: 50px;
+}
+
+.about h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about button {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #F4C430;
+  border-radius: 20px;
+  padding: 8px 35px;
+  border: 2px solid #F4C430;
+  position: relative;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+
+.about img {
+  border-radius: 10px;
+}
+
+/* Gallery */
+.gallery {
+  margin-top: 50px;
+}
+
+.gallery h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Contact */
+.contact {
+  margin-top: 50px;
+}
+
+.contact h1 {
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.contact form {
+  background-image: url("../img/nav-bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 330px;
+  background-position: top left;
+}
+
+@media screen and (max-width:360px) {
+  .contact form {
+    width: 100%;
+  }
+}
+
+.contact form h2 {
+  color: rgb(255, 255, 255);
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.contact form p {
+  text-align: center;
+  padding: 10px;
+}
+
+.contact form p .fa-envelope {
+  font-size: 21px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.contact form p .fa-phone {
+  font-size: 21px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.contact form p .fa-facebook {
+  font-size: 21px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.contact form p .fa-youtube-play {
+  font-size: 21px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.contact form p .fa-instagram {
+  font-size: 21px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.contact form input[type=text] {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(129, 95, 206);
+  background-color: transparent;
+  margin-left: 20%;
+  font-size: 14px;
+  color: #a09292;
+  font-weight: bold;
+}
+
+
+.contact form label {
+  margin-left: 20%;
+  color: white;
+}
+
+.contact form input[type=email] {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(129, 95, 206);
+  background-color: transparent;
+  margin-left: 20%;
+  font-size: 14px;
+  color: #a09292;
+  font-weight: bold;
+}
+
+.contact form textarea {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(129, 95, 206);
+  background-color: transparent;
+  margin-left: 20%;
+  font-size: 14px;
+  color: #a09292;
+  font-weight: bold;
+}
+
+.contact form button {
+  border: rgb(129, 95, 206);
+  background-color: rgb(129, 95, 206);
+  margin-left: 20%;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 8px 40px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.contact .right iframe {
+  width: 100%;
+  margin-top: 20px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+/* About History */
+.about-history {
+  margin-top: 50px;
+}
+
+.about-history h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.about-history p {
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+}
+
+/* Modal */
+
+.modal h4 {
+  color: #F4C430;
+  font-weight: 700;
+  margin-left: 120px;
+}
+
+/* Trust */
+
+.true {
+  margin-top: 100px;
+}
+
+.true h1 {
+  text-align: center;
+  font-weight: 900px;
+  font-size: 56px;
+}
+
+.true img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* About Temple */
+
+.trust-member h4{
+  margin-top: 10px;
+ font-weight: bold;
+}
+
+
+.trust-member a{
+ font-weight: bold;
+ text-decoration: none;
+ background-color: #F4C430;
+ color: white;
+ font-size: 14px;
+ border: 2px solid #F4C430;
+ padding: 8px 35px !important;
+ border-radius: 20px;
+display: inline-block;
+margin-top: 20px;
+}
+
