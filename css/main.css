@@ -367,10 +367,9 @@ body {
   font-weight: bold;
 }
 
-.contact form button {
+.contact form .btn {
   border: rgb(129, 95, 206);
   background-color: rgb(129, 95, 206);
-  margin-left: 20%;
   font-size: 14px;
   color: #ffffff;
   font-weight: bold;
@@ -378,6 +377,9 @@ body {
   padding: 8px 40px;
   margin-bottom: 40px;
   margin-top: 10px;
+  display: block;
+  margin: auto;
+  width: 170px;
 }
 
 .contact .right iframe {
@@ -453,3 +455,14 @@ display: inline-block;
 margin-top: 20px;
 }
 
+.cta-content .btn{
+  background-color: #F4C430;
+  color: white;
+  padding: 8px 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-family: poppins !important;
+  font-weight: 700;
+}
