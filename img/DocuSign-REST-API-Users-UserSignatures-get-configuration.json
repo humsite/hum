@@ -1,0 +1,16 @@
+{
+  "apiName": "REST API",
+  "basePath": "https://demo.docusign.net",
+  "endpoint": "/restapi/v2.1/accounts/{accountId}/users/e1663531-f541-4987-820b-d03547df1566/signatures/E1663531F541498...",
+  "headers": {},
+  "pathParameters": {
+    "accountId": "",
+    "userId": "e1663531-f541-4987-820b-d03547df1566",
+    "signatureId": "E1663531F541498..."
+  },
+  "queryParameters": {},
+  "bodyParameters": {},
+  "bodyParametersStringified": "{}",
+  "response": {},
+  "apiExplorerUrl": "https://developers.docusign.com/docs/esign-rest-api/reference/users/usersignatures/get/?explorer=true"
+}

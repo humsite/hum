@@ -1,0 +1,53 @@
+{
+  "apiName": "REST API",
+  "basePath": "https://demo.docusign.net",
+  "endpoint": "/restapi/v2.1/accounts/bd925a4c-963c-4ba5-b69c-c2df258314b2/users/e1663531-f541-4987-820b-d03547df1566/signatures",
+  "headers": {},
+  "pathParameters": {
+    "accountId": "bd925a4c-963c-4ba5-b69c-c2df258314b2",
+    "userId": "e1663531-f541-4987-820b-d03547df1566"
+  },
+  "queryParameters": {},
+  "bodyParameters": {},
+  "bodyParametersStringified": "{}",
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "cache-control": "no-cache",
+      "content-length": "709",
+      "content-type": "application/json; charset=utf-8",
+      "x-content-type-options": "nosniff",
+      "x-ratelimit-reset": "1698922800",
+      "x-ratelimit-remaining": "2997",
+      "x-ratelimit-limit": "3000",
+      "x-burstlimit-remaining": "499",
+      "x-burstlimit-limit": "500",
+      "x-docusign-tracetoken": "17b0f468-1ca9-453d-809a-8a20d03cf04c",
+      "x-docusign-node": "DA1DFE4",
+      "date": "Thu, 02 Nov 2023 10:13:57 GMT",
+      "connection": "close",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    },
+    "data": {
+      "userSignatures": [
+        {
+          "signatureId": "ba426d49-e7c8-4209-9573-47157cb321cd",
+          "signatureFont": "7_Docusign",
+          "signatureImageUri": "/users/e1663531-f541-4987-820b-d03547df1566/signatures/ba426d49-e7c8-4209-9573-47157cb321cd/signature_image",
+          "signatureInitials": "HK",
+          "initialsImageUri": "/users/e1663531-f541-4987-820b-d03547df1566/signatures/ba426d49-e7c8-4209-9573-47157cb321cd/initials_image",
+          "signature150ImageId": "ec0f0c1d-e5df-4410-a079-9cdfdbae4623",
+          "initials150ImageId": "b84e14ed-934e-44d3-8c91-bade14adc6ef",
+          "isDefault": "true",
+          "signatureName": "hareram kumar",
+          "disallowUserResizeStamp": "false",
+          "createdDateTime": "2023-10-31T09:22:05.5400000Z",
+          "adoptedDateTime": "2023-10-31T09:22:05.5400000Z",
+          "status": "Active"
+        }
+      ]
+    }
+  },
+  "apiExplorerUrl": "https://developers.docusign.com/docs/esign-rest-api/reference/users/usersignatures/list/?explorer=true"
+}

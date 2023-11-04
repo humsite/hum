@@ -104,6 +104,25 @@ body {
   text-align: end;
 }
 
+.footer-btn .btn {
+  background-color: black;
+  color: white !important;
+  padding: 8px 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-family: poppins !important;
+  font-weight: 700;
+  text-align: center;
+  display: none;
+}
+
+@media only screen and (max-width:600px){
+  .footer-btn .btn {
+    display: block !important;
+  }
+}
 
 /* F-card*/
 .f-card {

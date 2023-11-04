@@ -1,0 +1,14 @@
+{
+  "apiName": "REST API",
+  "basePath": "https://demo.docusign.net",
+  "endpoint": "/restapi/v2.1/accounts/bd925a4c-963c-4ba5-b69c-c2df258314b2/users/{userId}/signatures",
+  "headers": {},
+  "pathParameters": {
+    "accountId": "bd925a4c-963c-4ba5-b69c-c2df258314b2"
+  },
+  "queryParameters": {},
+  "bodyParameters": {},
+  "bodyParametersStringified": "{}",
+  "response": {},
+  "apiExplorerUrl": "https://developers.docusign.com/docs/esign-rest-api/reference/users/usersignatures/create/?explorer=true"
+}
