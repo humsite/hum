@@ -105,7 +105,8 @@ body {
 }
 
 .footer-btn .btn {
-  background-color: black;
+  /* background-color: rgb(182, 241, 62); */
+  background-image: url("../img/Head-Bg.jpg");
   color: white !important;
   padding: 8px 40px;
   border-radius: 20px;
@@ -115,7 +116,8 @@ body {
   font-family: poppins !important;
   font-weight: 700;
   text-align: center;
-  display: none;
+  /* display: none; */
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 @media only screen and (max-width:600px){
